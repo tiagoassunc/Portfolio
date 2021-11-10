@@ -1,8 +1,8 @@
 /** @jsxImportSource theme-ui */
 import { jsx } from "theme-ui";
+import Image from "next/image";
 import Link from "next/link";
-import { display } from "styled-system";
-import styles from "./../../sass/commons.module.scss";
+import commons from "./../../sass/commons.module.scss";
 
 const NavHeader = () => {
   return (
@@ -15,7 +15,6 @@ const NavHeader = () => {
       }}
     >
       <header sx={{ variant: "navigation.NavHeader" }}>
-        Tiago
         <nav>
           <Link
             href="/notes/[id]"
@@ -24,7 +23,26 @@ const NavHeader = () => {
               textDecoration: "none",
             }}
           >
-            <a className={styles.removeLinkStyle}>animations</a>
+            <a className={commons.removeLinkStyle}>
+              <Image
+                src="/svg/text/tiago-06.svg"
+                alt="Tiago"
+                fill="#fff"
+                width={240}
+                height={240}
+              />
+            </a>
+          </Link>
+        </nav>
+        <nav>
+          <Link
+            href="/notes/[id]"
+            as={`/notes/1`}
+            style={{
+              textDecoration: "none",
+            }}
+          >
+            <a className={commons.removeLinkStyle}>animations</a>
           </Link>
         </nav>
       </header>
