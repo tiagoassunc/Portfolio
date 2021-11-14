@@ -25,11 +25,11 @@ const NavHeader = () => {
           >
             <a className={commons.removeLinkStyle}>
               <Image
-                src="/svg/text/tiago-06.svg"
+                src="/svg/text/tiago-10.svg"
                 alt="Tiago"
                 fill="#fff"
-                width={240}
-                height={240}
+                width={170}
+                height={170}
               />
             </a>
           </Link>
