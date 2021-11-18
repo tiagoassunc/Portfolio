@@ -6,3 +6,17 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(227, 227, 235, 0.349);
+  border-radius: 10px;
+  border: solid 2px rgba(255, 255, 255, 0.089);
+}
