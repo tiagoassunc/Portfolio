@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import commons from "./../../sass/commons.module.scss";
-import { HiCog } from "react-icons/hi";
+import { HiOutlineUser } from "react-icons/hi";
 const NavConfig = () => {
   return (
     <div
@@ -12,7 +12,7 @@ const NavConfig = () => {
         width: "65px",
         position: "fixed",
         bottom: "12px",
-        left: "12px",
+        right: "12px",
       }}
     >
       <div
@@ -26,7 +26,7 @@ const NavConfig = () => {
         <nav>
           <Link href="/configurations" as={`/configurations`}>
             <a className={commons.removeLinkStyle}>
-              <HiCog sx={{ height: 35, width: 35 }} />
+              <HiOutlineUser sx={{ height: 35, width: 35 }} />
             </a>
           </Link>
         </nav>

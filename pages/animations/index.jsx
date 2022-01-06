@@ -1,6 +1,4 @@
 /** @jsxImportSource theme-ui */
-
-import Link from "next/link";
 import Card from "../../src/components/card/Card";
 import { HiArrowSmLeft, HiArrowSmRight } from "react-icons/hi";
 
