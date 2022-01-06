@@ -1,6 +1,4 @@
-import { colors } from "@theme-ui/preset-bootstrap";
 import { tailwind } from "@theme-ui/presets";
-import { borderRadius, padding, width } from "styled-system";
 
 const theme = {
   ...tailwind,
